@@ -9,7 +9,7 @@ using LeagueSharp.Common;
 
 namespace Marksman
 {
-    internal class Kogmaw : Champion
+    internal class **Kogmaw : Champion
     {
         public Spell E;
         public Spell Q;
@@ -17,9 +17,9 @@ namespace Marksman
         public int UltimateBuffStacks = 0;
         public Spell W;
 
-        public Kogmaw()
+        public **Kogmaw()
         {
-            Utils.PrintMessage("KogMaw loaded.");
+            Utils.PrintMessage("**KogMaw loaded.");
 
             Q = new Spell(SpellSlot.Q, 1200f);
             W = new Spell(SpellSlot.W, float.MaxValue);
